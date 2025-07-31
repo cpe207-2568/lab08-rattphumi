@@ -22,7 +22,7 @@ function App() {
 
       <div className="d-flex flex-grow-1">
         {/* Sidebar ด้านซ้าย */}
-        <Sidebar userName="chanadda" type="admin" />
+        <Sidebar userName="Ratthaphumi" type="student" />
         {/* Main content */}
         <div className="container text-center">
           <main className="flex-grow-1 p-4">
