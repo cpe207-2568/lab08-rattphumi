@@ -26,11 +26,13 @@ function App() {
         {/* Main content */}
         <div className="container text-center">
           <main className="flex-grow-1 p-4">
-          {/* Card รายการ */}
-            <TaskInput />
-            <Task{...TaskCard[0]} />
-            <Task{...TaskCard[1]} />
-            <Task{...TaskCard[2]} />
+            <div>
+              {/* Card รายการ */}
+              <TaskInput />
+              <Task{...TaskCard[0]} />
+              <Task{...TaskCard[1]} />
+              <Task{...TaskCard[2]} />
+            </div> 
           </main>
         </div>
       </div>
